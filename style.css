@@ -1,0 +1,32 @@
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+/* Style for video containers */
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Style for videos */
+iframe {
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+iframe:hover {
+    transform: scale(1.05);
+}
+
+.card {
+    background: #1c1c1c;
+    padding: 10px;
+    border-radius: 12px;
+}
