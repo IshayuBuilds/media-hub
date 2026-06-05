@@ -2,15 +2,40 @@ body {
     background-color: #111;
     color: white;
     font-family: Arial;
-    text-align: center;
+    margin: 0;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.navbar {
+    background: #000;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
 }
 
 /* Style for video containers */
 .container {
     display: flex;
     gap: 20px;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
+    padding-left: 20px;
 }
 
 /* Style for videos */
@@ -29,4 +54,11 @@ iframe:hover {
     background: #1c1c1c;
     padding: 10px;
     border-radius: 12px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.card:hover {
+    transform: scale(1.08);
+    background: #2a2a2a;
 }
